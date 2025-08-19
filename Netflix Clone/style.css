@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(assets/images/bg.jpg);
+    position: relative;
+    background-position: center center;
+    background-size: max(1200, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.76;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    padding-top: 20px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    text-align: center;
+}
+
+nav img {
+    color: rgb(229, 9, 20);
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: calc(100% - 41px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 40px;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 54px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.seperation {
+    position: relative;
+    height: 30px;
+    background: linear-gradient(to bottom, #100938, #000000);
+    border-top: 4px solid #e50914;
+    /* red-pink border */
+    border-radius: 50% / 100% 100% 0 0;
+    /* arc shape */
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+.btn {
+    padding: 5px 14px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.5);
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-red-sm {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-red {
+    background-color: rgb(229, 9, 20);
+    padding: 12px 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main input {
+    padding: 13px 70px;
+    font-size: 16px;
+    padding-left: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.trending {
+    color: white;
+    padding: 30px 70px;
+}
+
+.trending h2 {
+    margin-bottom: 25px;
+}
+
+.posters {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card {
+    position: relative;
+    width: 15%;
+    overflow: visible;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    border-radius: 9px;
+}
+
+.rank {
+    position: absolute;
+    bottom: -10px;
+    left: -19px;
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 1.2px white;
+}
+
+.faq h2 {
+    padding: 80px;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ques {
+    display: flex;
+    background-color: #303030;
+    padding: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    transition: background-color 0.5s ease;
+}
+
+.ques:hover {
+    background-color: #454545;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.599);
+    margin: auto;
+    max-width: 80vw;
+    padding: 34px;
+}
+
+footer span {
+    padding: 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.599);
+
+}

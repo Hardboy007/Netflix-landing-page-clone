@@ -1,0 +1,22 @@
+body{
+    max-width: 600px;
+    margin: auto;
+}
+.one{
+    background-color: pink;
+    border: blue 4px solid;
+    padding: 32px;
+    margin: 12px;
+}
+.two{
+    background-color: lightblue;
+    border: purple 4px solid;
+    margin-bottom: 48px;
+}
+.three{
+    background-color: peachpuff;
+    border: brown 4px solid;
+    padding: 32px;
+    width: 200px;
+    margin-left: auto;
+}
